@@ -1,0 +1,436 @@
+/* Шапка */
+
+/* Картинка логотипа */
+.listimg{
+    display: flex;
+    padding-left: 101px;
+    padding: 16px 224px 16px 101px;
+}
+.listimg img{
+    width: 64px;
+    height: 64px;
+}
+/* Текст в меню */
+.textmenu a{
+    text-decoration: none;
+    color: #585454;
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+.textmenu{
+    display: flex;
+    gap: 245px;
+}
+/* Общий флексбокс 2 дивов */
+.listheader{
+    display: flex;
+    justify-content: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(2, 2, 2);
+    border-radius: 5px;
+    margin: 0px 124px 0px 106px;
+}
+
+.listheader nav{
+    display: flex;
+    list-style: none;
+    gap: 120px;
+    font-weight: normal;
+    justify-content: center;
+    padding: 42px 220px 41px 0px; 
+    font-size: 18px;
+}
+/* Обращение к блоку header */
+header{
+    display: flex;
+    justify-content: center;
+    padding: 26px 0px 90px 0px;
+
+}
+
+
+
+
+
+/* главная */
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-block-end: 10px;
+}
+
+/* 1 блок текста */
+/* Флекс текста и видео 1 блока */
+.video-maintext{
+    display: flex;
+    gap: 155px;
+    justify-content: center;
+    padding-block-end: 216px;
+}
+/* Отступ 2 текстов */
+.maintext-1{
+    display: flex;
+    flex-direction: column;
+    gap: 177px;
+}
+/* Текст Stormland и сабнадпись */
+.title-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.title{
+    display: flex;
+    justify-content: start;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    font-size: 72px;
+}
+.subtextmain{
+    color: #585454;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif ;
+    gap: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
+    transform: translateX(-15px);
+}
+/* Текст ссылки и копировки апи */
+.button{
+    display: flex;
+    font-weight: normal;
+    justify-content: start;
+    gap: 15px;
+    transform: translateX(-8px);
+}
+.button a{
+    display: flex;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    padding: 7px 35px 7px 35px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0 0 15px #4c4444;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif ;
+    align-items: center;
+}
+
+.batton-ip{
+    display: flex;
+    color: #585454;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bolder;
+    justify-content: start;
+    padding: 14px 28px 14px 28px ;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+/* Видео настрйока */
+
+.videomain{
+    display: flex;
+}
+.videomain iframe{
+    width: 653px;
+    height: 380px;
+    border-radius: 50px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+
+
+/* 2блок текста */
+/* Надпись "о сервере" */
+.server{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif ;
+} 
+
+/* Флекс соединяющий 3 подблока текста */
+.server-subtitle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    padding-top: 10px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* 1 строка текста */
+.stormtext{
+    display: flex;
+    padding-right: 4px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #201f1f;
+    text-shadow: 1px #201f1f;
+}
+.subtext-1{
+    color: #585555;
+    display: flex;
+    justify-content: center;
+}
+/* 2 строка текста */
+.subtext-2{
+    color: #585555;
+    display: flex;
+    justify-content: center;
+}
+/* 3 строка текста */
+.subtext-3 a{
+    text-decoration: none;
+    font-weight: calc(530);
+    color: #201f1f;
+    text-shadow: #201f1f;
+    display: flex;
+    justify-content: center;
+    padding-block-end: 64px;
+}
+/* Картинка  */
+.serverimg{
+    display: flex;
+    justify-content: center;
+    padding-block-end: 64px;
+}
+
+
+/* 3 блок текста */
+
+/* Флекс 4 критерий */
+.criterii{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-block-end: 208px;
+}
+/* флекс 1 строки */
+.string1{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+/* 1 критерий */
+.crit1{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 409px;
+    height: 203px;
+    border-radius: 15px;
+    color: white;
+}
+.crit1-text1{
+    display: flex;
+    justify-content: start;
+    padding-top: 32px;
+    padding-block-end: 24px;
+    padding-left: 26px;
+    font-size: 24px;
+}
+.crit1-text2{
+    display: flex;
+    justify-content: start;
+    padding-left: 26px;
+    font-size: 18px;
+}
+.crit1-text3{
+    display: flex;
+    justify-content: start;
+    padding-left: 26px;
+    font-size: 18px;
+}
+.crit1-text4{
+    display: flex;
+    justify-content: start;
+    padding-left: 26px;
+    font-size: 18px;
+}
+/* 2 критерий */
+
+.crit2{
+    display: flex;
+    width: 409px;
+    height: 203px;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    flex-direction: column;
+}
+.crit2-text1{
+    display: flex;
+    justify-content: start;
+    font-size: 24px;
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-block-end: 24px;
+}
+.crit2-text2{
+    display: flex;
+    justify-content: start;
+    padding-left: 24px;
+    padding-block-end: 48px;
+    color: #585555;
+    font-size: 18px;
+
+}
+/* флекс 2 строки */
+.string2{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+/* 3 критерий */
+.crit3{
+    display: flex;
+    width: 409px;
+    height: 203px;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    flex-direction: column;
+}
+.crit3-text1{
+    display: flex;
+    justify-content: start;
+    font-size: 24px;
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-block-end: 24px;
+}
+.crit3-text2{
+    display: flex;
+    justify-content: start;
+    padding-left: 24px;
+    padding-block-end: 48px;
+    color: #585555;
+    font-size: 18px;
+
+}
+/* 4 критерий */
+.crit4{
+    display: flex;
+    background-color: black;
+    width: 409px;
+    height: 203px;
+    border-radius: 15px;
+    color: white;
+    flex-direction: column;
+}
+.crit4 a{
+    text-decoration: none;
+    color: white;
+}
+.crit4-text1{
+    display: flex;
+    justify-content: start;
+    padding-top: 32px;
+    padding-block-end: 24px;
+    padding-left: 26px;
+    font-size: 24px;
+}
+.crit4-text2{
+    display: flex;
+    justify-content: start;
+    padding-left: 26px;
+    font-size: 18px;
+}
+/* флекс 3 строки */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* футер */
+footer{
+    background-color: rgb(0, 0, 0);
+    nav-index: 1000;
+}
+/* Главный блок футера */
+.fottermain{
+    display: flex;
+    justify-content: center;
+    gap: 516px;
+    list-style: none;
+    padding-block-end: 25px;
+    padding-right: 10px;
+}
+/* 1 блок футера */
+.fot1{
+    color: #585454;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.fot1 img{
+    width:46px;
+    height: 29px;
+}
+.fot1 p{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #585454;
+}
+/* 2 блок футера */
+.fot2{
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    padding-top: 4px;
+    gap: 6px;
+}
+.fot2 a{
+    color: #585454;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.fot2 p{
+    color: #585454;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+/* блоки ссылок на вк и ютуб */
+.seti{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+/* Тело */
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0%; 
+}
