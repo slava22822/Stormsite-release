@@ -1,2 +1,0 @@
-# Stormsite-release
-New realese
